@@ -1,0 +1,30 @@
+### Suhas' repos
+
+GET https://api.github.com/users/jargnar/repos HTTP/1.1
+Content-Type: application/json
+Accept: application/vnd.github.v3+json
+
+### Project
+
+GET https://api.github.com/repos/jargnar/projecteuler HTTP/1.1
+Content-Type: application/json
+Accept: application/vnd.github.v3+json
+
+### Issues
+
+GET https://api.github.com/repos/jargnar/projecteuler/issues HTTP/1.1
+Content-Type: application/json
+Accept: application/vnd.github.v3+json
+
+### Issues Pagination
+
+GET https://api.github.com/repos/apache/incubator-superset/issues?page=2 HTTP/1.1
+Content-Type: application/json
+Accept: application/vnd.github.v3+json
+
+### Bugs (doesn't work)
+
+GET https://api.github.com/repos/apache/incubator-superset/issues?lables=help-wanted,%23refine HTTP/1.1
+Content-Type: application/json
+Accept: application/vnd.github.v3+json
+
